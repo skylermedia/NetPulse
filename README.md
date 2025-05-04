@@ -59,7 +59,7 @@ To run or build NetPulse, you’ll need:
 
 ---
 
-## 📥 Installation
+## 📥 Building From Source
 
 1. **Clone the Repository**:
 
@@ -96,7 +96,7 @@ To run or build NetPulse, you’ll need:
 
 ---
 
-## 📦 Publishing as a Single File
+## 📦 Building as a Single File
 
 To distribute NetPulse as a single executable:
 
