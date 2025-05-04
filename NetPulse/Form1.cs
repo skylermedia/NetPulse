@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NetworkSwitcher
+namespace NetPulse
 {
     public partial class Form1 : Form
     {
@@ -221,7 +221,8 @@ namespace NetworkSwitcher
                         Arguments = $"interface set interface \"{adapterName}\" {(enable ? "enable" : "disable")}",
                         UseShellExecute = true,
                         Verb = "runas",
-                        CreateNoWindow = true
+                        CreateNoWindow = true,
+                        WindowStyle = ProcessWindowStyle.Hidden
                     }
                 };
                 process.Start();

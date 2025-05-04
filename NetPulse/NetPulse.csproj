@@ -1,17 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
-  <ItemGroup>
-  <None Update="app.manifest">
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-  </None>
-</ItemGroup>
-
 </Project>
