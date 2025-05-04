@@ -66,7 +66,7 @@ namespace NetPulse
         {
             if (string.IsNullOrWhiteSpace(serverTextBox.Text) || ethernetComboBox.SelectedItem == null || wifiComboBox.SelectedItem == null)
             {
-                UpdateStatus("Please fill all fields");
+                UpdateStatus("Please fill all fields.");
                 return;
             }
 
@@ -94,7 +94,7 @@ namespace NetPulse
                 isMonitoring = false;
                 startButton.Enabled = true;
                 stopButton.Enabled = false;
-                UpdateStatus("Monitoring stopped");
+                UpdateStatus("Monitoring Stopped.");
             }
         }
 
@@ -102,7 +102,7 @@ namespace NetPulse
         {
             int failureCount = 0;
             int ethernetStableCount = 0;
-            const int maxStableChecks = 3;
+            const int maxStableChecks = 5;
 
             while (!token.IsCancellationRequested)
             {
@@ -170,7 +170,7 @@ namespace NetPulse
                         }
                     }
 
-                    await Task.Delay(interval * 1000, token);
+                    await Task.Delay(interval * 2000, token);
                 }
                 catch (Exception ex)
                 {
@@ -185,7 +185,7 @@ namespace NetPulse
             {
                 using (var ping = new Ping())
                 {
-                    var reply = await ping.SendPingAsync(server, 2000);
+                    var reply = await ping.SendPingAsync(server, 1000);
                     return new PingReply(reply);
                 }
             }
