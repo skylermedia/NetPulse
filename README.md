@@ -16,6 +16,39 @@
 
 ---
 
+## 🎮 Usage
+
+1. **Launch NetPulse**:
+
+   - Run `NetPulse.exe` as administrator to allow network adapter control.
+
+2. **Configure Settings**:
+
+   - **Game Server IP**: Enter the server’s IP address (e.g., `1.1.1.1` for testing).
+   - **Ping Threshold (ms)**: Set the maximum acceptable ping (e.g., `50`).
+   - **Check Interval (s)**: Define how often to ping (e.g., `1` second).
+   - **Max Failures**: Set the number of failed pings before switching to Wi-Fi (e.g., `3`).
+   - **Ethernet/Wi-Fi Adapters**: Select your network adapters from the dropdowns.
+
+3. **Start Monitoring**:
+
+   - Click **Start Monitoring** to begin pinging the server.
+   - The app will:
+     - Monitor Ethernet ping.
+     - Switch to Wi-Fi if ping exceeds the threshold for the set number of failures.
+     - Display Wi-Fi ping when active.
+     - Revert to Ethernet after three stable pings.
+
+4. **Stop Monitoring**:
+
+   - Click **Stop Monitoring** to pause the process.
+
+5. **View Status**:
+
+   - The status box shows real-time updates (e.g., `Ethernet stable: 20ms`, `Using Wi-Fi: Ping 45ms`).
+
+---
+
 ## 🛠️ Prerequisites
 
 To run or build NetPulse, you’ll need:
@@ -60,39 +93,6 @@ To run or build NetPulse, you’ll need:
      ```
      - Find `NetPulse.exe` in `bin/Release/net9.0-windows/win-x64/publish`.
      - Right-click `NetPulse.exe` and select **Run as administrator**.
-
----
-
-## 🎮 Usage
-
-1. **Launch NetPulse**:
-
-   - Run `NetPulse.exe` as administrator to allow network adapter control.
-
-2. **Configure Settings**:
-
-   - **Game Server IP**: Enter the server’s IP address (e.g., `1.1.1.1` for testing).
-   - **Ping Threshold (ms)**: Set the maximum acceptable ping (e.g., `50`).
-   - **Check Interval (s)**: Define how often to ping (e.g., `1` second).
-   - **Max Failures**: Set the number of failed pings before switching to Wi-Fi (e.g., `3`).
-   - **Ethernet/Wi-Fi Adapters**: Select your network adapters from the dropdowns.
-
-3. **Start Monitoring**:
-
-   - Click **Start Monitoring** to begin pinging the server.
-   - The app will:
-     - Monitor Ethernet ping.
-     - Switch to Wi-Fi if ping exceeds the threshold for the set number of failures.
-     - Display Wi-Fi ping when active.
-     - Revert to Ethernet after three stable pings.
-
-4. **Stop Monitoring**:
-
-   - Click **Stop Monitoring** to pause the process.
-
-5. **View Status**:
-
-   - The status box shows real-time updates (e.g., `Ethernet stable: 20ms`, `Using Wi-Fi: Ping 45ms`).
 
 ---
 
