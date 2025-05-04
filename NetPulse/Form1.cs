@@ -102,7 +102,7 @@ namespace NetPulse
         {
             int failureCount = 0;
             int ethernetStableCount = 0;
-            const int maxStableChecks = 5;
+            const int maxStableChecks = 3;
 
             while (!token.IsCancellationRequested)
             {
