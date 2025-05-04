@@ -67,7 +67,7 @@
             this.serverTextBox.Name = "serverTextBox";
             this.serverTextBox.Size = new System.Drawing.Size(250, 27);
             this.serverTextBox.TabIndex = 1;
-            this.serverTextBox.Text = "8.8.8.8";
+            this.serverTextBox.Text = "ping-naw.ds.on.epicgames.com";
             this.serverTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.serverTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left;
             // 
@@ -112,7 +112,7 @@
             this.intervalNumeric.Name = "intervalNumeric";
             this.intervalNumeric.Size = new System.Drawing.Size(120, 27);
             this.intervalNumeric.TabIndex = 5;
-            this.intervalNumeric.Value = new decimal(new int[] { 2, 0, 0, 0 });
+            this.intervalNumeric.Value = new decimal(new int[] { 1, 0, 0, 0 });
             this.intervalNumeric.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.intervalNumeric.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left;
             // 
