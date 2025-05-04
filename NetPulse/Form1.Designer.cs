@@ -63,7 +63,7 @@
             // 
             // serverTextBox
             // 
-            this.serverTextBox.Location = new System.Drawing.Point(130, 17);
+            this.serverTextBox.Location = new System.Drawing.Point(160, 17);
             this.serverTextBox.Name = "serverTextBox";
             this.serverTextBox.Size = new System.Drawing.Size(250, 27);
             this.serverTextBox.TabIndex = 1;
@@ -76,7 +76,7 @@
             this.thresholdLabel.AutoSize = true;
             this.thresholdLabel.Location = new System.Drawing.Point(20, 60);
             this.thresholdLabel.Name = "thresholdLabel";
-            this.thresholdLabel.Size = new System.Drawing.Size(110, 20);
+            this.thresholdLabel.Size = new System.Drawing.Size(130, 20);
             this.thresholdLabel.TabIndex = 2;
             this.thresholdLabel.Text = "Ping Threshold (ms):";
             this.thresholdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
@@ -84,7 +84,7 @@
             // 
             // thresholdNumeric
             // 
-            this.thresholdNumeric.Location = new System.Drawing.Point(130, 57);
+            this.thresholdNumeric.Location = new System.Drawing.Point(160, 57);
             this.thresholdNumeric.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             this.thresholdNumeric.Name = "thresholdNumeric";
             this.thresholdNumeric.Size = new System.Drawing.Size(120, 27);
@@ -98,7 +98,7 @@
             this.intervalLabel.AutoSize = true;
             this.intervalLabel.Location = new System.Drawing.Point(20, 100);
             this.intervalLabel.Name = "intervalLabel";
-            this.intervalLabel.Size = new System.Drawing.Size(100, 20);
+            this.intervalLabel.Size = new System.Drawing.Size(130, 20);
             this.intervalLabel.TabIndex = 4;
             this.intervalLabel.Text = "Check Interval (s):";
             this.intervalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
@@ -106,7 +106,7 @@
             // 
             // intervalNumeric
             // 
-            this.intervalNumeric.Location = new System.Drawing.Point(130, 97);
+            this.intervalNumeric.Location = new System.Drawing.Point(160, 97);
             this.intervalNumeric.Maximum = new decimal(new int[] { 60, 0, 0, 0 });
             this.intervalNumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.intervalNumeric.Name = "intervalNumeric";
@@ -129,7 +129,7 @@
             // 
             // failuresNumeric
             // 
-            this.failuresNumeric.Location = new System.Drawing.Point(130, 137);
+            this.failuresNumeric.Location = new System.Drawing.Point(160, 137);
             this.failuresNumeric.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             this.failuresNumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.failuresNumeric.Name = "failuresNumeric";
@@ -154,7 +154,7 @@
             // 
             this.ethernetComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ethernetComboBox.FormattingEnabled = true;
-            this.ethernetComboBox.Location = new System.Drawing.Point(130, 177);
+            this.ethernetComboBox.Location = new System.Drawing.Point(160, 177);
             this.ethernetComboBox.Name = "ethernetComboBox";
             this.ethernetComboBox.Size = new System.Drawing.Size(250, 28);
             this.ethernetComboBox.TabIndex = 9;
@@ -176,7 +176,7 @@
             // 
             this.wifiComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.wifiComboBox.FormattingEnabled = true;
-            this.wifiComboBox.Location = new System.Drawing.Point(130, 217);
+            this.wifiComboBox.Location = new System.Drawing.Point(160, 217);
             this.wifiComboBox.Name = "wifiComboBox";
             this.wifiComboBox.Size = new System.Drawing.Size(250, 28);
             this.wifiComboBox.TabIndex = 11;
@@ -215,7 +215,7 @@
             this.statusTextBox.Name = "statusTextBox";
             this.statusTextBox.ReadOnly = true;
             this.statusTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.statusTextBox.Size = new System.Drawing.Size(460, 150);
+            this.statusTextBox.Size = new System.Drawing.Size(480, 150);
             this.statusTextBox.TabIndex = 14;
             this.statusTextBox.Text = "Status: Idle";
             this.statusTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
@@ -226,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = false;
-            this.ClientSize = new System.Drawing.Size(500, 480);
+            this.ClientSize = new System.Drawing.Size(520, 480);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             this.Controls.Add(this.statusTextBox);
             this.Controls.Add(this.stopButton);
